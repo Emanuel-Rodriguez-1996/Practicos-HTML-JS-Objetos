@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/Clases.js"></script>
+    <script src="js/sistema.js"></script>
+    <script src="js/codigo.js"></script>
+    <title>Practico 7</title>
+</head>
+<body>
+    <h5>Ejercicio1</h5>
+
+    <label for="nombre1">Nombre</label> 
+    <input type="text" id="nombre1"><br>
+    <label for="edad1">Edad</label>
+    <input type="text" id="edad1"><br>
+    <label for="nacionalidad1">Nacionalidad</label>
+    <input type="text" id="nacionalidad1"><br><br>
+    <input type="button" id="btnEjercicio1" value="Tabla de datos">
+    <input type="button" id="btnEjercicioN1" value="Mayores de Edad"><br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Nacionalidad</th>
+            </tr>
+        </thead>
+        <tbody id="tblPersonas">
+        </tbody>
+        <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Nacionalidad</th>
+                </tr>
+            </thead>
+            <tbody id="tblMayoresEdad">
+            </tbody>
+        </table>
+    </table>
+
+<hr>
+
+
+<h5>Ejercicio 2</h5>
+
+<label for="nombreP2">Nombre pelicula</label>
+<input type="text" id="nombreP2"><br>
+
+<label for="anioP2">anio</label>
+<input type="text" id="anioP2"><br>
+
+<label for="slcGenero">Genero</label>
+<select id="slcGenero">
+    <option value="comedia">Comedia</option>
+    <option value="drama">Drama</option>
+    <option value="ciencia">Ciencia Ficciòn</option>
+</select><br>
+
+<label for="slcGenero">Director</label>
+<select id="slcDirector">
+</select><br>
+
+<label for="votantes2">Cantidad de votantes</label>
+<input type="text" id="votantes2"><br>
+
+<label for="puntos2">Total de puntos:</label> 
+<input type="text" id="puntos2"><br>
+
+<input type="button" id="btnEjercicio2" value="Mostrar">
+<p id="presultado2"></p>
+<hr>
+
+
+
+
+<h5>Ejercicio 3</h5>
+
+<label for="cantidad3">Cantidad de guitarras</label>
+<input type="text" id="cantidad3"><br>
+
+<label for="slcTipo3">Tipo de guitarra</label>
+<select id="slcTipo3">
+</select><br>
+
+<input type="button" id="btnEjercicio3" value="Comprar">
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Dinero Generado </th>
+        </tr>
+    </thead>
+    <tbody id="tblGuitarras">
+    </tbody>
+</table>
+<hr>
+
+
+
+
+
+<h5>Ejercicio 4</h5>
+<label for="slcCelulares4">Marca</label>
+<select id="slcCelulares4">
+    <option value="smsg">Samsung</option>
+    <option value="sony">Sony</option>
+    <option value="lg">L.G</option>
+</select><br>
+<label for="cantidad4">Cantidad de celulares</label>
+<input type="text" id="cantidad4"><br>
+<input type="button" id="btnEjercicio4" value="Comprar"><br>
+<br>
+<label for="modelo4">Modelo</label>
+<input type="text" id="modelo4"><br>
+<label for="precio4">Precio</label>
+<input type="text" id="precio4"><br>
+<input type="button" id="btnEjercicioN4" value="Listar">
+<table border="1">
+<thead>
+    <tr>
+        <th>Cantidad de ventas</th>
+        <th>Precio final</th>
+    </tr>
+</thead>
+<tbody id="tblCelulares">
+</tbody>
+</table>
+<hr>
+</body>
+</html>
